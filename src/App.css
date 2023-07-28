@@ -1,38 +1,95 @@
-.App {
+.input-group{
+  color: black;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+  width: 200px;
+
+}
+
+.input-group label{
+  color: black;
+  font-size: 20px;
+  align-self: center;
+  width: 80px;
+}
+
+.input-group input{
+  color: black;
+  border: 1px solid #c2c1c1;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 6px 0;
+  text-align: center;
+  width: 100px;
+}
+
+.main{
+  background-color: #f8f9fa;
+
+}
+.container{
+  background-color: #ffffff;
+  margin: auto;
+  width: 80%;
+  height: 100vh;
+}
+
+.row{
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.col{
+  margin: 10px;
+
+}
+
+.title{
+  padding: 20px 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inputForm{
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  padding: 20px;
+  width: 450px;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.titleForm{
+  margin-bottom: 10px ;
+}
+.divider{
+  background-color: #c2c1c1;
+  height: 2px;
+  margin-bottom: 20px ;
+  width: 100%;
+}
+
+.cardboard{
+  border: 1px solid #c2c1c1;
+  border-radius: 10px;
+  width: 560px;
+}
+
+.lineXTest{
+  font-size: 12px;
+}
+
+.titleCustom{
+  text-align: center;
+  margin: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .container{
+    width: 100%;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .inputForm{
+    width: 560px;
   }
 }
