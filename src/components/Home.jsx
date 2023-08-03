@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Navbar from "./Navbar";
 
 const Home = () => {
   // if h = 4 then l <= 13
@@ -145,15 +146,17 @@ const Home = () => {
   return (
     <div className="main">
       <div className="container">
-        <h1 className="title">Custom Cardboard</h1>
-        <h2 className="title">
+        <Navbar />
+        <h1 className="title">Custom Cardboard Sizer</h1>
+        <div className="separator"></div>
+        <h2 className="subTitle">
           Cardboard dimensions | Length: 48" - Width: 40"
         </h2>
-        <p className="title">Landscape Mode</p>
+        <p className="subTitle">Landscape Mode</p>
 
         <div className="row">
           <div className="col">
-            <p className="titleCustom">48"</p>
+            <p className="titleCustom">48" Length</p>
             <div className="cardboard">
               <svg height="480" width="560">
                 <rect
@@ -328,6 +331,7 @@ const Home = () => {
             </div>
           </div>
           <div className="col">
+            <p className="titleCustom">The inputs will increase by 0.5"</p>
             <div className="inputForm">
               <h4 className="titleForm">Please enter custom dimensions.</h4>
               <div className="divider"></div>

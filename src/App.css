@@ -1,3 +1,10 @@
+.separator{
+  width: 100px;
+  height: 3px;
+  margin: auto;
+  background-color: #0E64a2;
+}
+
 .input-group{
   color: black;
   display: flex;
@@ -32,7 +39,7 @@
   background-color: #ffffff;
   margin: auto;
   width: 80%;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .row{
@@ -47,6 +54,14 @@
 }
 
 .title{
+  color: #333333;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.subTitle{
+  color: #3a3a3a;
   padding: 20px 0;
   text-align: center;
 }
@@ -80,6 +95,8 @@
 }
 
 .titleCustom{
+  color: #3a3a3a;
+  font-size: 14px;
   text-align: center;
   margin: 10px;
 }
