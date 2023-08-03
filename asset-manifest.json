@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/DPGINC/static/css/main.d3d6167e.css",
+    "main.js": "/DPGINC/static/js/main.6ae02010.js",
+    "static/js/787.cda612ba.chunk.js": "/DPGINC/static/js/787.cda612ba.chunk.js",
+    "static/media/DPG_Corp_Family_Logo_2.png": "/DPGINC/static/media/DPG_Corp_Family_Logo_2.e0bb40b6e8705dc31c2b.png",
+    "index.html": "/DPGINC/index.html",
+    "main.d3d6167e.css.map": "/DPGINC/static/css/main.d3d6167e.css.map",
+    "main.6ae02010.js.map": "/DPGINC/static/js/main.6ae02010.js.map",
+    "787.cda612ba.chunk.js.map": "/DPGINC/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3d6167e.css",
+    "static/js/main.6ae02010.js"
+  ]
+}
